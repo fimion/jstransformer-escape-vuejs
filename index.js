@@ -16,7 +16,7 @@ exports.render = function (str) {
     switch (result.charCodeAt(index)) {
       case 123: // {
       case 125: // }
-        html += '&amp;#'+result.charCodeAt(index)+';'
+        html += '&#8203;&#'+result.charCodeAt(index)+';'
         break
       default:
         html += result[index]
