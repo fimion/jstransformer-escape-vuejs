@@ -3,8 +3,8 @@
     "escape-html": "^1.0.3"
   },
   "name": "jstransformer-escape-vuejs",
-  "version": "1.1.0",
-  "description": "escape-html support plus a little extra for JSTransformers.",
+  "version": "1.0.0",
+  "description": "escape-html support plus curly brackets for JSTransformers.",
   "keywords": [
     "jstransformer"
   ],
