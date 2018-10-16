@@ -1,13 +1,13 @@
 'use strict'
 
-const escape = require('escape-html')
+const escapeHtml = require('escape-html')
 
 exports.name = 'escape-vuejs'
 exports.outputFormat = 'html'
 
 exports.render = function (str) {
-  let result = escape(str),
-      match = /[{}]/.exec(result);
+  let result = escapeHtml(str),
+      match = /[{}]/gm.exec(result);
   if(!match){
     return result;
   }
